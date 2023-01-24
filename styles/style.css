@@ -1,0 +1,93 @@
+/* Universal Styles Start */
+* {
+  font-family: "Inter", sans-serif;
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+@import url("https://fonts.googleapis.com/css2?family=Inter:wght@400;600;800&display=swap");
+
+ul,
+li {
+  list-style: none;
+}
+a {
+  text-decoration: none;
+}
+
+/* Buttons Style Start */
+.btn {
+  height: 64px;
+  border-radius: 5px;
+  font-weight: 700;
+  font-size: 20px;
+  padding: 18px 35px;
+  cursor: pointer;
+}
+.btn__primary {
+  border: 1px solid transparent;
+  background-color: #ff5959;
+  color: #fff;
+}
+.btn__primary:hover {
+  background-color: #fff;
+  color: #ff5959;
+  border: 1px solid #ff5959;
+}
+.btn__secondary {
+  background-color: transparent;
+  color: #ff5959;
+  border: 1px solid #ff5959;
+}
+.btn__secondary:hover {
+  background-color: #ff5959;
+  color: #fff;
+  border: 1px solid transparent;
+}
+/* Buttons Style End */
+
+.container {
+  max-width: 1140px;
+  width: 100%;
+  margin: 0 auto;
+  margin-top: 130px;
+  margin-bottom: 130px;
+  padding: 0 20px;
+}
+/* Universal Styles End */
+
+/* Header Section Styles Start */
+header {
+  background-image: url("/images/donation0.jpg");
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+.banner {
+  background: linear-gradient(360deg, #121212 0%, rgba(18, 18, 18, 0) 100%);
+  height: 90vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+.banner__text {
+  max-width: 826px;
+  width: 100%;
+  text-align: center;
+}
+.banner__text h1 {
+  font-weight: 700;
+  font-size: 65px;
+  line-height: 79px;
+  color: #ffffff;
+  margin-bottom: 2rem;
+}
+.banner__text p {
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 28px;
+  color: #ffffff;
+  margin-bottom: 2rem;
+}
+/* Header Section Styles End */
