@@ -1,11 +1,17 @@
 /* Universal Styles Start */
 * {
   font-family: "Inter", sans-serif;
+  /* font-family: "Lobster", cursive; */
   padding: 0;
   margin: 0;
   box-sizing: border-box;
 }
+h1,h2,h3,h4,h5,h6{
+   font-family: "Lobster", cursive;
+}
 @import url("https://fonts.googleapis.com/css2?family=Inter:wght@400;600;800&display=swap");
+
+@import url("https://fonts.googleapis.com/css2?family=Inter:wght@400;600;800&family=Lobster&display=swap");
 
 ul,
 li {
@@ -259,6 +265,7 @@ header {
 }
 .donation-2 {
   padding-top: 130px;
+  padding-bottom: 130px;
   max-width: 1140px;
   margin: 0 auto;
   display: flex;
@@ -269,8 +276,80 @@ header {
 }
 /* Donation Section End */
 
+/* Contact Section Start */
+
+.contact > h1 {
+  font-weight: 700;
+  font-size: 45px;
+  line-height: 54px;
+  text-align: center;
+  color: #121212;
+}
+.contact > p {
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 28px;
+  text-align: center;
+  color: #707070;
+  max-width: 690px;
+  margin: 0 auto;
+  padding-top: 20px;
+  padding-bottom: 50px;
+}
+.contact__form {
+  display: flex;
+  margin: 0 auto;
+  align-items: center;
+  justify-content: center;
+  gap: 20px;
+
+  max-width: 809px;
+  width: 100%;
+  height: 200px;
+  left: 316px;
+  top: 3442px;
+
+  background: #fff4d6;
+}
+.contact__form input {
+  border: none;
+  text-align: start;
+  font-weight: 400;
+  color: #b3b3b3;
+  background-color: #d9d9d9;
+  width: 275px;
+  height: 64px;
+  padding-top: 14px;
+  padding-bottom: 14px;
+  padding-left: 17px;
+  margin-right: -20px;
+}
+/* Contact Section End */
+
 /* Main Secion End */
 
+/* Footer Section Start */
+footer {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  margin-top: 130px;
+  padding-top: 43px;
+  padding-bottom: 43px;
+  background: #0b0d17;
+}
+footer > h1 {
+  color: #ff5959;
+  /* font-family: "Lobster", cursive; */
+  font-weight: 400;
+}
+footer > small {
+  color: #d9dbe1;
+}
+/* Footer Section End */
+
+/* Responsive Section Start */
 @media only screen and (max-width: 1000px) {
   .banner__text h1 {
     font-size: 40px;
@@ -298,3 +377,5 @@ header {
     text-align: center;
   }
 }
+
+/* Responsive Section End */
