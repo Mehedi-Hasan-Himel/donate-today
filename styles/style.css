@@ -93,6 +93,8 @@ header {
 /* Header Section Styles End */
 
 /* Main Secion Start */
+
+/* Donate Today Section Start */
 .donate__today {
   margin-top: 130px;
   display: flex;
@@ -116,6 +118,7 @@ header {
   display: flex;
   justify-content: space-between;
   gap: 22px;
+  flex-wrap: wrap;
 }
 .donate__amount li {
   border: 2px solid transparent;
@@ -147,4 +150,81 @@ header {
   line-height: 28px;
   color: #b3b3b3;
 }
+/* Donate Today Section End */
+
+/* Donate Plan Section Start */
+.donate__plan {
+  margin-top: 130px;
+  margin-bottom: 130px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 20px;
+}
+.donate__plan h1 {
+  font-weight: 700;
+  font-size: 45px;
+  line-height: 54px;
+  color: #121212;
+}
+.donate__plan > p {
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 28px;
+  color: #707070;
+  max-width: 690px;
+  text-align: center;
+}
+
+.donate__plan-article {
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  gap: 20px;
+  max-width: 1140px;
+  width: 100%;
+}
+
+.donate__plan-article > article {
+  padding: 54px 22px;
+  border-radius: 5px;
+  max-width: 360px;
+  max-height: 360px;
+  border: 5px solid transparent;
+}
+.article-title {
+  margin-top: 1rem;
+  padding-bottom: 1rem;
+}
+.article-description {
+  color: #707070;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 24px;
+}
+
+.article-1 {
+  background-color: rgba(79, 157, 166, 0.1);
+}
+.article-1:hover {
+  border: 5px solid rgba(79, 157, 166, 0.1);
+  border-radius: 10px;
+}
+.article-2 {
+  background-color: rgba(255, 89, 89, 0.1);
+}
+.article-2:hover {
+  border: 5px solid rgba(255, 89, 89, 0.1);
+  border-radius: 10px;
+}
+.article-3 {
+  background-color: #fff4d6;
+}
+.article-3:hover {
+  border: 5px solid #fff4d6;
+  border-radius: 10px;
+}
+
+/* Donate Plan Section End */
+
 /* Main Secion End */
